@@ -1,0 +1,40 @@
+{
+  "plans": {
+    "plan:free@1": {
+      "title": "Free",
+      "features": {
+        "feature:aicopy": {
+          "title": "3 AI generated devotionals",
+          "mode": "volume",
+          "tiers": [
+            {
+              "upto": 3
+            }
+          ]
+        },
+        "feature:base": {
+          "base": 0,
+          "title": "Base"
+        }
+      }
+    },
+    "plan:startup@2": {
+      "title": "Premium",
+      "features": {
+        "feature:aicopy": {
+          "title": "300 AI generated devotionals",
+          "mode": "volume",
+          "tiers": [
+            {
+              "upto": 300
+            }
+          ]
+        },
+        "feature:base": {
+          "base": 500,
+          "title": "Base"
+        }
+      }
+    }
+  }
+}
